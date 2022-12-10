@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply bg-black text-gray-100;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  font-weight: 700;
+  src: url("/fonts/SpaceGrotesk-Bold.woff2");
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  font-weight: 400;
+  src: url("/fonts/SpaceGrotesk-Regular.woff2");
+  font-display: block;
+}
+
+body {
+  font-family: "Space Grotesk", monospace;
+}
